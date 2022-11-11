@@ -1,0 +1,28 @@
+.post {
+    background: rgb(16, 173, 152);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 100ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(3, 60, 10);
+  }
+  
+  .post:hover{
+    transform: scale(1.05);
+    border: 3px solid rgb(33, 14, 14);
+  }
+  
+  .post img {
+    width: 180px;
+    height: 250px;
+    border-radius: 15px;
+  }
+  
+  .postgeral{
+    padding: 27px;
+  }
+  
+  
