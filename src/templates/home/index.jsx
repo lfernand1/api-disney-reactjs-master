@@ -45,7 +45,7 @@ export class Home extends Component {
       <section className="container">
 
         <div className="search-container">
-          <h1>Search value: { searchValue } </h1>
+          <h1>Disney { searchValue } </h1>
           <Input 
             onChange={this.handleChange}
             value={searchValue}
